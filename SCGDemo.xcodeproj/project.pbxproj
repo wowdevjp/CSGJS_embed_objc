@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074621A218D1433E00A91F65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074621A118D1433E00A91F65 /* Foundation.framework */; };
+		074621A418D1433E00A91F65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074621A318D1433E00A91F65 /* CoreGraphics.framework */; };
+		074621A618D1433E00A91F65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074621A518D1433E00A91F65 /* UIKit.framework */; };
+		074621AC18D1433E00A91F65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 074621AA18D1433E00A91F65 /* InfoPlist.strings */; };
+		074621AE18D1433E00A91F65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 074621AD18D1433E00A91F65 /* main.m */; };
+		074621B218D1433E00A91F65 /* WDMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 074621B118D1433E00A91F65 /* WDMAppDelegate.m */; };
+		074621B518D1433E00A91F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074621B318D1433E00A91F65 /* Main.storyboard */; };
+		074621B818D1433E00A91F65 /* WDMViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 074621B718D1433E00A91F65 /* WDMViewController.mm */; };
+		074621BA18D1433E00A91F65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074621B918D1433E00A91F65 /* Images.xcassets */; };
+		074621C118D1433E00A91F65 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074621C018D1433E00A91F65 /* XCTest.framework */; };
+		074621C218D1433E00A91F65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074621A118D1433E00A91F65 /* Foundation.framework */; };
+		074621C318D1433E00A91F65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074621A518D1433E00A91F65 /* UIKit.framework */; };
+		074621CB18D1433E00A91F65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 074621C918D1433E00A91F65 /* InfoPlist.strings */; };
+		074621CD18D1433E00A91F65 /* SCGDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 074621CC18D1433E00A91F65 /* SCGDemoTests.m */; };
+		074621EA18D1447200A91F65 /* GFbo.m in Sources */ = {isa = PBXBuildFile; fileRef = 074621D818D1447200A91F65 /* GFbo.m */; };
+		074621EB18D1447200A91F65 /* GMSAAFbo.m in Sources */ = {isa = PBXBuildFile; fileRef = 074621DB18D1447200A91F65 /* GMSAAFbo.m */; };
+		074621EC18D1447200A91F65 /* GMutableVbo.m in Sources */ = {isa = PBXBuildFile; fileRef = 074621DD18D1447200A91F65 /* GMutableVbo.m */; };
+		074621ED18D1447200A91F65 /* GShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 074621DF18D1447200A91F65 /* GShader.m */; };
+		074621EE18D1447200A91F65 /* GState.m in Sources */ = {isa = PBXBuildFile; fileRef = 074621E118D1447200A91F65 /* GState.m */; };
+		074621EF18D1447200A91F65 /* GStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 074621E318D1447200A91F65 /* GStateManager.m */; };
+		074621F018D1447200A91F65 /* GTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 074621E518D1447200A91F65 /* GTexture.m */; };
+		074621F118D1447200A91F65 /* GVao.m in Sources */ = {isa = PBXBuildFile; fileRef = 074621E718D1447200A91F65 /* GVao.m */; };
+		074621F218D1447200A91F65 /* GVbo.m in Sources */ = {isa = PBXBuildFile; fileRef = 074621E918D1447200A91F65 /* GVbo.m */; };
+		074621F518D144EA00A91F65 /* USKOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 074621F418D144EA00A91F65 /* USKOpenGLView.m */; };
+		074621F718D146C200A91F65 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074621F618D146C200A91F65 /* JavaScriptCore.framework */; };
+		074621F918D151AB00A91F65 /* csg.js in Resources */ = {isa = PBXBuildFile; fileRef = 074621F818D151AB00A91F65 /* csg.js */; };
+		07751AC018D157BC00AE75DB /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07751ABF18D157BB00AE75DB /* GLKit.framework */; };
+		07751AC218D157C000AE75DB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07751AC118D157C000AE75DB /* OpenGLES.framework */; };
+		07751AC518D159F200AE75DB /* USKCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 07751AC418D159F200AE75DB /* USKCamera.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		074621C418D1433E00A91F65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0746219618D1433E00A91F65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0746219D18D1433E00A91F65;
+			remoteInfo = SCGDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0746219E18D1433E00A91F65 /* SCGDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCGDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074621A118D1433E00A91F65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		074621A318D1433E00A91F65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		074621A518D1433E00A91F65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		074621A918D1433E00A91F65 /* SCGDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCGDemo-Info.plist"; sourceTree = "<group>"; };
+		074621AB18D1433E00A91F65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		074621AD18D1433E00A91F65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		074621AF18D1433E00A91F65 /* SCGDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCGDemo-Prefix.pch"; sourceTree = "<group>"; };
+		074621B018D1433E00A91F65 /* WDMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDMAppDelegate.h; sourceTree = "<group>"; };
+		074621B118D1433E00A91F65 /* WDMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDMAppDelegate.m; sourceTree = "<group>"; };
+		074621B418D1433E00A91F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		074621B618D1433E00A91F65 /* WDMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDMViewController.h; sourceTree = "<group>"; };
+		074621B718D1433E00A91F65 /* WDMViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WDMViewController.mm; sourceTree = "<group>"; };
+		074621B918D1433E00A91F65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		074621BF18D1433E00A91F65 /* SCGDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCGDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		074621C018D1433E00A91F65 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		074621C818D1433E00A91F65 /* SCGDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCGDemoTests-Info.plist"; sourceTree = "<group>"; };
+		074621CA18D1433E00A91F65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		074621CC18D1433E00A91F65 /* SCGDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCGDemoTests.m; sourceTree = "<group>"; };
+		074621D718D1447200A91F65 /* GFbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFbo.h; sourceTree = "<group>"; };
+		074621D818D1447200A91F65 /* GFbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFbo.m; sourceTree = "<group>"; };
+		074621D918D1447200A91F65 /* GMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMacros.h; sourceTree = "<group>"; };
+		074621DA18D1447200A91F65 /* GMSAAFbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAAFbo.h; sourceTree = "<group>"; };
+		074621DB18D1447200A91F65 /* GMSAAFbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSAAFbo.m; sourceTree = "<group>"; };
+		074621DC18D1447200A91F65 /* GMutableVbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMutableVbo.h; sourceTree = "<group>"; };
+		074621DD18D1447200A91F65 /* GMutableVbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMutableVbo.m; sourceTree = "<group>"; };
+		074621DE18D1447200A91F65 /* GShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GShader.h; sourceTree = "<group>"; };
+		074621DF18D1447200A91F65 /* GShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GShader.m; sourceTree = "<group>"; };
+		074621E018D1447200A91F65 /* GState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GState.h; sourceTree = "<group>"; };
+		074621E118D1447200A91F65 /* GState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GState.m; sourceTree = "<group>"; };
+		074621E218D1447200A91F65 /* GStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GStateManager.h; sourceTree = "<group>"; };
+		074621E318D1447200A91F65 /* GStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GStateManager.m; sourceTree = "<group>"; };
+		074621E418D1447200A91F65 /* GTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTexture.h; sourceTree = "<group>"; };
+		074621E518D1447200A91F65 /* GTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTexture.m; sourceTree = "<group>"; };
+		074621E618D1447200A91F65 /* GVao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVao.h; sourceTree = "<group>"; };
+		074621E718D1447200A91F65 /* GVao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVao.m; sourceTree = "<group>"; };
+		074621E818D1447200A91F65 /* GVbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVbo.h; sourceTree = "<group>"; };
+		074621E918D1447200A91F65 /* GVbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVbo.m; sourceTree = "<group>"; };
+		074621F318D144EA00A91F65 /* USKOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USKOpenGLView.h; sourceTree = "<group>"; };
+		074621F418D144EA00A91F65 /* USKOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USKOpenGLView.m; sourceTree = "<group>"; };
+		074621F618D146C200A91F65 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		074621F818D151AB00A91F65 /* csg.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = csg.js; sourceTree = "<group>"; };
+		07751ABF18D157BB00AE75DB /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		07751AC118D157C000AE75DB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		07751AC318D159F200AE75DB /* USKCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USKCamera.h; sourceTree = "<group>"; };
+		07751AC418D159F200AE75DB /* USKCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USKCamera.m; sourceTree = "<group>"; };
+		07751AC618D159FC00AE75DB /* USKCameraProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USKCameraProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0746219B18D1433E00A91F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07751AC218D157C000AE75DB /* OpenGLES.framework in Frameworks */,
+				07751AC018D157BC00AE75DB /* GLKit.framework in Frameworks */,
+				074621F718D146C200A91F65 /* JavaScriptCore.framework in Frameworks */,
+				074621A418D1433E00A91F65 /* CoreGraphics.framework in Frameworks */,
+				074621A618D1433E00A91F65 /* UIKit.framework in Frameworks */,
+				074621A218D1433E00A91F65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074621BC18D1433E00A91F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074621C118D1433E00A91F65 /* XCTest.framework in Frameworks */,
+				074621C318D1433E00A91F65 /* UIKit.framework in Frameworks */,
+				074621C218D1433E00A91F65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0746219518D1433E00A91F65 = {
+			isa = PBXGroup;
+			children = (
+				074621A718D1433E00A91F65 /* SCGDemo */,
+				074621C618D1433E00A91F65 /* SCGDemoTests */,
+				074621A018D1433E00A91F65 /* Frameworks */,
+				0746219F18D1433E00A91F65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0746219F18D1433E00A91F65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0746219E18D1433E00A91F65 /* SCGDemo.app */,
+				074621BF18D1433E00A91F65 /* SCGDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		074621A018D1433E00A91F65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07751AC118D157C000AE75DB /* OpenGLES.framework */,
+				07751ABF18D157BB00AE75DB /* GLKit.framework */,
+				074621F618D146C200A91F65 /* JavaScriptCore.framework */,
+				074621A118D1433E00A91F65 /* Foundation.framework */,
+				074621A318D1433E00A91F65 /* CoreGraphics.framework */,
+				074621A518D1433E00A91F65 /* UIKit.framework */,
+				074621C018D1433E00A91F65 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		074621A718D1433E00A91F65 /* SCGDemo */ = {
+			isa = PBXGroup;
+			children = (
+				074621D618D1447200A91F65 /* G */,
+				074621F318D144EA00A91F65 /* USKOpenGLView.h */,
+				074621F418D144EA00A91F65 /* USKOpenGLView.m */,
+				074621B018D1433E00A91F65 /* WDMAppDelegate.h */,
+				074621B118D1433E00A91F65 /* WDMAppDelegate.m */,
+				07751AC618D159FC00AE75DB /* USKCameraProtocol.h */,
+				07751AC318D159F200AE75DB /* USKCamera.h */,
+				07751AC418D159F200AE75DB /* USKCamera.m */,
+				074621B318D1433E00A91F65 /* Main.storyboard */,
+				074621B618D1433E00A91F65 /* WDMViewController.h */,
+				074621B718D1433E00A91F65 /* WDMViewController.mm */,
+				074621F818D151AB00A91F65 /* csg.js */,
+				074621B918D1433E00A91F65 /* Images.xcassets */,
+				074621A818D1433E00A91F65 /* Supporting Files */,
+			);
+			path = SCGDemo;
+			sourceTree = "<group>";
+		};
+		074621A818D1433E00A91F65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				074621A918D1433E00A91F65 /* SCGDemo-Info.plist */,
+				074621AA18D1433E00A91F65 /* InfoPlist.strings */,
+				074621AD18D1433E00A91F65 /* main.m */,
+				074621AF18D1433E00A91F65 /* SCGDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		074621C618D1433E00A91F65 /* SCGDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				074621CC18D1433E00A91F65 /* SCGDemoTests.m */,
+				074621C718D1433E00A91F65 /* Supporting Files */,
+			);
+			path = SCGDemoTests;
+			sourceTree = "<group>";
+		};
+		074621C718D1433E00A91F65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				074621C818D1433E00A91F65 /* SCGDemoTests-Info.plist */,
+				074621C918D1433E00A91F65 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		074621D618D1447200A91F65 /* G */ = {
+			isa = PBXGroup;
+			children = (
+				074621D718D1447200A91F65 /* GFbo.h */,
+				074621D818D1447200A91F65 /* GFbo.m */,
+				074621D918D1447200A91F65 /* GMacros.h */,
+				074621DA18D1447200A91F65 /* GMSAAFbo.h */,
+				074621DB18D1447200A91F65 /* GMSAAFbo.m */,
+				074621DC18D1447200A91F65 /* GMutableVbo.h */,
+				074621DD18D1447200A91F65 /* GMutableVbo.m */,
+				074621DE18D1447200A91F65 /* GShader.h */,
+				074621DF18D1447200A91F65 /* GShader.m */,
+				074621E018D1447200A91F65 /* GState.h */,
+				074621E118D1447200A91F65 /* GState.m */,
+				074621E218D1447200A91F65 /* GStateManager.h */,
+				074621E318D1447200A91F65 /* GStateManager.m */,
+				074621E418D1447200A91F65 /* GTexture.h */,
+				074621E518D1447200A91F65 /* GTexture.m */,
+				074621E618D1447200A91F65 /* GVao.h */,
+				074621E718D1447200A91F65 /* GVao.m */,
+				074621E818D1447200A91F65 /* GVbo.h */,
+				074621E918D1447200A91F65 /* GVbo.m */,
+			);
+			path = G;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0746219D18D1433E00A91F65 /* SCGDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074621D018D1433E00A91F65 /* Build configuration list for PBXNativeTarget "SCGDemo" */;
+			buildPhases = (
+				0746219A18D1433E00A91F65 /* Sources */,
+				0746219B18D1433E00A91F65 /* Frameworks */,
+				0746219C18D1433E00A91F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCGDemo;
+			productName = SCGDemo;
+			productReference = 0746219E18D1433E00A91F65 /* SCGDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		074621BE18D1433E00A91F65 /* SCGDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074621D318D1433E00A91F65 /* Build configuration list for PBXNativeTarget "SCGDemoTests" */;
+			buildPhases = (
+				074621BB18D1433E00A91F65 /* Sources */,
+				074621BC18D1433E00A91F65 /* Frameworks */,
+				074621BD18D1433E00A91F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				074621C518D1433E00A91F65 /* PBXTargetDependency */,
+			);
+			name = SCGDemoTests;
+			productName = SCGDemoTests;
+			productReference = 074621BF18D1433E00A91F65 /* SCGDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0746219618D1433E00A91F65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WDM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = wow;
+				TargetAttributes = {
+					074621BE18D1433E00A91F65 = {
+						TestTargetID = 0746219D18D1433E00A91F65;
+					};
+				};
+			};
+			buildConfigurationList = 0746219918D1433E00A91F65 /* Build configuration list for PBXProject "SCGDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0746219518D1433E00A91F65;
+			productRefGroup = 0746219F18D1433E00A91F65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0746219D18D1433E00A91F65 /* SCGDemo */,
+				074621BE18D1433E00A91F65 /* SCGDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0746219C18D1433E00A91F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074621F918D151AB00A91F65 /* csg.js in Resources */,
+				074621BA18D1433E00A91F65 /* Images.xcassets in Resources */,
+				074621AC18D1433E00A91F65 /* InfoPlist.strings in Resources */,
+				074621B518D1433E00A91F65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074621BD18D1433E00A91F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074621CB18D1433E00A91F65 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0746219A18D1433E00A91F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074621EB18D1447200A91F65 /* GMSAAFbo.m in Sources */,
+				074621B818D1433E00A91F65 /* WDMViewController.mm in Sources */,
+				074621EC18D1447200A91F65 /* GMutableVbo.m in Sources */,
+				074621EE18D1447200A91F65 /* GState.m in Sources */,
+				074621F518D144EA00A91F65 /* USKOpenGLView.m in Sources */,
+				074621F118D1447200A91F65 /* GVao.m in Sources */,
+				074621AE18D1433E00A91F65 /* main.m in Sources */,
+				074621B218D1433E00A91F65 /* WDMAppDelegate.m in Sources */,
+				074621ED18D1447200A91F65 /* GShader.m in Sources */,
+				074621EA18D1447200A91F65 /* GFbo.m in Sources */,
+				074621EF18D1447200A91F65 /* GStateManager.m in Sources */,
+				074621F018D1447200A91F65 /* GTexture.m in Sources */,
+				07751AC518D159F200AE75DB /* USKCamera.m in Sources */,
+				074621F218D1447200A91F65 /* GVbo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074621BB18D1433E00A91F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074621CD18D1433E00A91F65 /* SCGDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		074621C518D1433E00A91F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0746219D18D1433E00A91F65 /* SCGDemo */;
+			targetProxy = 074621C418D1433E00A91F65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		074621AA18D1433E00A91F65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074621AB18D1433E00A91F65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		074621B318D1433E00A91F65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074621B418D1433E00A91F65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		074621C918D1433E00A91F65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074621CA18D1433E00A91F65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		074621CE18D1433E00A91F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		074621CF18D1433E00A91F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		074621D118D1433E00A91F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCGDemo/SCGDemo-Prefix.pch";
+				INFOPLIST_FILE = "SCGDemo/SCGDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		074621D218D1433E00A91F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCGDemo/SCGDemo-Prefix.pch";
+				INFOPLIST_FILE = "SCGDemo/SCGDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		074621D418D1433E00A91F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SCGDemo.app/SCGDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCGDemo/SCGDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SCGDemoTests/SCGDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		074621D518D1433E00A91F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SCGDemo.app/SCGDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCGDemo/SCGDemo-Prefix.pch";
+				INFOPLIST_FILE = "SCGDemoTests/SCGDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0746219918D1433E00A91F65 /* Build configuration list for PBXProject "SCGDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074621CE18D1433E00A91F65 /* Debug */,
+				074621CF18D1433E00A91F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074621D018D1433E00A91F65 /* Build configuration list for PBXNativeTarget "SCGDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074621D118D1433E00A91F65 /* Debug */,
+				074621D218D1433E00A91F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074621D318D1433E00A91F65 /* Build configuration list for PBXNativeTarget "SCGDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074621D418D1433E00A91F65 /* Debug */,
+				074621D518D1433E00A91F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0746219618D1433E00A91F65 /* Project object */;
+}
